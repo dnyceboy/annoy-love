@@ -1,7 +1,7 @@
 var answer = prompt("Do You Love Me?");
 
-while (answer.indexOf("yes") === -1 &&answer.indexOf("yeah") === -1) {
+while (answer.toLowerCase().indexOf("yes") === -1 && answer.toLowerCase().indexOf("yeah") === -1) {
     var answer = prompt("Do You Love Me?");
 }
 
-alert("YAY I lOVE YOU TOO!!! XD");
+alert("YAY I lOVE YOU SO MUCH TOO!!! XD");
